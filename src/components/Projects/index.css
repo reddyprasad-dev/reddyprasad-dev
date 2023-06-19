@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --font-family: DM Sans;
+}
+
+.projects {
+    width: 100vw;
+    min-height: 84.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 110px;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    font-family: var(--font-family);
+    font-size: 36px;
+    margin-left: 24px;
+}
+
+.projects-list {
+    margin-left: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    gap: 24px;
+    min-height: 30.5vh;
+}
+
+.project-item {
+    list-style-type: none;
+}
+
+.project-name {
+    font-family: var(--font-family);
+    font-size: 24px;
+}

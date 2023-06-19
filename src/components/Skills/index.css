@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --font-family: DM Sans;
+}
+
+.skills {
+    width: 100vw;
+}
+
+.skills-heading {
+    font-family: var(--font-family);
+    font-size: 36px;
+    text-align: center;
+    text-decoration: 5px underline blue;
+    text-underline-offset: 8px;
+}
+
+.skill-type-text {
+    font-family: var(--font-family);
+    font-size: 28px;
+    margin-left: 50px;
+    text-decoration: 3px underline blue;
+    text-underline-offset: 6px;
+} 
+
+.skills-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+}
+
+@media screen and (min-width: 767px) {
+    .skills-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.skill-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    width: 240px;
+    height: 80px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media screen and (min-width: 767px) {
+    .skill-card {
+        width: 200px;
+        height: 80px;
+    }
+}
+
+.technology-image {
+    width: 50px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.technology-text {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}

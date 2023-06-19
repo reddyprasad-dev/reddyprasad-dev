@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+    --font-family: DM Sans;
+}
+
+.banner {
+    width: 100vw;
+    height: 350px;
+    background-color: rgb(63, 65, 59);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -20px;
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+    .banner-text-container {
+        width: 360px;
+    }
+}
+
+.name {
+    font-family: var(--font-family);
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 46px;
+}
+
+.download-button {
+    font-size: 14px;
+    padding: 8px 14px;
+}
+
+.profile-photo {
+    clip-path: circle(100px at 50% 38%);
+    position: relative;
+    top: 40px;
+}
+
+
+
